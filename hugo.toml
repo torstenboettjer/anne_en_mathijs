@@ -1,0 +1,12 @@
+# Root Hugo Configuration
+#
+# For theme-specific settings, see: `config/_default/`
+# Documentation: https://alpha.oxypteros.com/docs/config/hugo-toml
+
+#baseURL = "https://example.com" # Replace with production URL
+title = "Anne en Mathijs Wedding"
+theme = "alpha"
+timeZone = "Europe/Rome"
+
+# Goldmark strips out any raw HTML this setting silences the corresponding warning
+ignoreLogs = ["warning-goldmark-raw-html"]
