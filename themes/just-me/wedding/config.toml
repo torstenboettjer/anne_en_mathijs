@@ -1,0 +1,17 @@
+# REMOVE THIS
+themesDir = "../../"
+
+# DO NOT REMOVE THIS
+theme = "just-me"
+# Just me! only renders the homepage, no section or other kinds
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+# Override these settings with your own
+baseURL = "https://example.com"
+languageCode = "nl-NL"
+title = "Anne en Mathijs's Wedding"
+
+[params]
+  author = "Charlotte Boettjer"
+  author_link = "#"
+  ga_tracking_id = ""

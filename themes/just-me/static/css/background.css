@@ -1,0 +1,59 @@
+/* --- Base Styles --- */
+body {
+    background-color: #fdfbf7; /* Warm, natural paper white */
+    color: #4a4540; /* Soft earthy charcoal */
+    font-family: "EB Garamond", serif;
+    line-height: 1.8; /* Increased for a more luxurious, airy feel */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center the content container */
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased; /* Crisper text rendering */
+}
+
+/* --- Layout Container --- */
+.container {
+    width: 90%;
+    max-width: 700px; /* Prevents text lines from getting too long/tiring */
+    padding: 100px 0; /* Generous vertical breathing room */
+}
+
+/* --- Typography --- */
+h1,
+h2,
+h3 {
+    font-weight: 400; /* Keep it light and elegant */
+    letter-spacing: 0.05em; /* Slight tracking for a high-end look */
+    color: #4a4540;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.15rem; /* Slightly larger for readability */
+}
+
+/* --- Accents --- */
+.date-location {
+    color: #8c7e6d; /* The lighter taupe/grey you mentioned */
+    font-style: italic;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e0dcd5; /* Very subtle divider */
+    margin: 4rem auto;
+    width: 30%;
+}

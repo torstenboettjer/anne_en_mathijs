@@ -1,0 +1,79 @@
+/* --- Styles for Image/Site Credits --- */
+
+#credits-box {
+    z-index: 10;
+    position: fixed; /* Fixed so it stays in the corner of the viewport */
+    bottom: 1.5em;
+    right: 1.5em;
+    text-align: right;
+}
+
+.fa-info-circle {
+    color: #8c7e6d; /* Using your accent taupe instead of white */
+    font-size: 1.1em;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.fa-info-circle:hover {
+    opacity: 1;
+}
+
+.credits {
+    background-color: rgba(
+        253,
+        251,
+        247,
+        0.9
+    ); /* Warm white with slight transparency */
+    font-family: "EB Garamond", serif; /* Keeping typography consistent */
+    display: inline-block;
+    font-size: 0.85em;
+    color: #8c7e6d;
+    margin-right: 10px;
+    padding: 5px 12px;
+    border: 1px solid #e0dcd5; /* Subtle natural border */
+    border-radius: 4px; /* Squared off slightly for elegance */
+}
+
+#credits-box a {
+    color: #4a4540; /* Darker brown for links */
+    text-decoration: none;
+    border-bottom: 1px solid rgba(140, 126, 109, 0.3);
+}
+
+.font-credits {
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+/* --- Visibility Logic --- */
+.info {
+    transition:
+        opacity 0.6s ease,
+        visibility 0.6s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.info.fade_out {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* --- Mobile Refinement --- */
+@media all and (max-width: 420px) {
+    #credits-box {
+        bottom: 1em;
+        right: 1em;
+    }
+    .fa-info-circle {
+        font-size: 1.8em; /* Slightly larger for touch targets */
+    }
+    .credits {
+        font-size: 0.9rem;
+        width: 80vw; /* Take more width on small screens */
+    }
+}
