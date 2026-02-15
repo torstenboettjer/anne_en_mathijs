@@ -11,11 +11,12 @@
 }
 
 .title {
-    color: #4a4540; /* Natural soft brown/charcoal */
+    color: #4a4540;
     position: relative;
     font-family: "Alex Brush", cursive;
-    font-size: 5rem; /* Increased slightly for elegance */
+    font-size: 8rem; /* Significant increase for a bolder look */
     font-weight: 400;
+    line-height: 1.2; /* Ensures descenders/ascenders aren't cut off */
     z-index: 10;
     margin-bottom: 0.5rem;
 }
