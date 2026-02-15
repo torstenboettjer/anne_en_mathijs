@@ -1,3 +1,6 @@
 [submodule "themes/alpha"]
 	path = themes/alpha
 	url = https://github.com/oxypteros/alpha.git
+[submodule "themes/just-me"]
+	path = themes/just-me
+	url = https://github.com/jota-ele-ene/just-me.git
