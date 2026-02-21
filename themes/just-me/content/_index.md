@@ -9,3 +9,5 @@ draft: false
 Wij trouwen 
 
 30 Mai 2026 — Voorburg
+
+{{ partial "rsvp.html" . }}
