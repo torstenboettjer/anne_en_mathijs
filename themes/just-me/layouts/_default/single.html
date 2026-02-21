@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="page-container">
+  <h1>{{ .Title }}</h1>
+  
+  <section class="content">
+    {{ .Content }}
+  </section>
+
+  <section class="rsvp-form-wrapper">
+    {{ partial "rsvp.html" . }}
+  </section>
+</article>
+{{ end }}
