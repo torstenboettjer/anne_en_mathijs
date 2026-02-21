@@ -12,3 +12,8 @@ ignoreLogs = ["warning-goldmark-raw-html"]
   author = "Charlotte Boettjer"
   author_link = "https://linkedin.com/in/charlotte-boettjer-b545239a"
   #ga_tracking_id = "G-XXXXXXXXXX"  # Replace with your actual Google Tag ID
+
+[[menu.main]]
+    name = "RSVP"
+    url = "/rsvp/"
+    weight = 3
