@@ -6,6 +6,6 @@ date: 2022-01-12T19:29:03+01:00
 draft: false
 ---
 
-# Wij trouwen 
+Wij trouwen 
 
-Mai 30, 2026 — Voorburg
+30 Mai 2026 — Voorburg
