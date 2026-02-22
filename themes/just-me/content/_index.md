@@ -8,7 +8,4 @@ draft: false
 
 Wij trouwen 
 
-30 Mai 2026 — Voorburg
-
-
-[RSVP](/rsvp/)
+30 Mei 2026 — Voorburg
